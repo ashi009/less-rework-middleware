@@ -1,16 +1,24 @@
 {
   "author": "Randy Merrill <Zoramite+github@gmail.com> (http://forthedeveloper.com)",
-  "name": "less-middleware",
-  "description": "LESS.js middleware for connect.",
+  "contributors": [
+    "Xiaoyi Shi <ashi009@gmail.com>"
+  ],
+  "name": "less-rework-middleware",
+  "description": "LESS.js and rework middleware for connect.",
   "version": "0.1.12",
   "repository": {
     "type": "git",
-    "url": "git://github.com/emberfeather/less.js-middleware.git"
+    "url": "git://github.com/ashi009/less.js-middleware.git"
   },
   "main": "lib/middleware.js",
   "dependencies": {
     "less": "~1.4",
-    "mkdirp": "~0.3"
+    "mkdirp": "~0.3",
+    "rework": ">= 0.17.4",
+    "rework-mixins": "*",
+    "rework-move-media": "*",
+    "rework-clearfix": "*",
+    "autoprefixer": ">= 0.7.20130824"
   },
   "devDependencies": {},
   "optionalDependencies": {},
