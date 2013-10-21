@@ -12,7 +12,7 @@
   },
   "main": "lib/middleware.js",
   "dependencies": {
-    "less": "~1.4",
+    "less": "~1.5",
     "mkdirp": "~0.3",
     "rework": ">= 0.17.4",
     "rework-mixins": "*",
